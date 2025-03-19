@@ -19,6 +19,9 @@ public class Livro {
     private String isbn;
     private boolean ebook;
     private Date dataLancamento;
+    @ManyToONe
+    @JoinColumn(name = "id_biblioteca")
+    private Biblioteca biblioteca;
 
     public Long getId() {
         return id;
