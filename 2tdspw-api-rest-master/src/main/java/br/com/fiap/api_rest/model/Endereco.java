@@ -11,6 +11,13 @@ public class Endereco {
     @OneToOne(mappedBy = "endereco")
     private Biblioteca biblioteca;
 
+    public Endereco() {
+    }
+
+    public Endereco(String localizacao) {
+        this.localizacao = localizacao;
+    }
+
     public Long getId() {
         return id;
     }
