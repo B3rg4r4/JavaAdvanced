@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/2tdspw-api-rest-master" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/2tdspw-api-rest-master" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/2tdspw-api-security-master" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/2tdspw-api-security-master" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>
